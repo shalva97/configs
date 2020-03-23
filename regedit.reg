@@ -6,6 +6,10 @@ Windows Registry Editor Version 5.00
 ;Never combine Taskbar icons
 "TaskbarGlomLevel"=dword:00000002
 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband]
+;remove all pinned items in taskbar
+"Favorites"=hex:ff
+
 ;Remove the 'OneDrive' Icon from Windows Explorer for the current user
 [-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{018D5C66-4533-4307-9B53-224DE2ED1FE6}]
 
