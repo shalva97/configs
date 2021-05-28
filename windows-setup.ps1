@@ -9,6 +9,7 @@ choco install -y python3
 choco install -y firacodenf
 choco install -y git
 choco install -y vscode
+choco install -y kdeconnect-kde
 
 # Import Registry files in '.\REG' folder
 foreach ($reg in (Get-ChildItem -Path ".\REG\*" -Include @("*.reg")).FullName) {
