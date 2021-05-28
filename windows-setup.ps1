@@ -10,6 +10,7 @@ choco install -y firacodenf
 choco install -y git
 choco install -y vscode
 choco install -y kdeconnect-kde
+choco install -y mitmproxy
 
 # Import Registry files in '.\REG' folder
 foreach ($reg in (Get-ChildItem -Path ".\REG\*" -Include @("*.reg")).FullName) {
