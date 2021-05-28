@@ -12,7 +12,10 @@ choco install -y vscode
 choco install -y kdeconnect-kde
 choco install -y mitmproxy
 
-# Import Registry files in '.\REG' folder
-foreach ($reg in (Get-ChildItem -Path ".\REG\*" -Include @("*.reg")).FullName) {
+# timezone
+tzutil /s "Georgian Standard Time"
+
+# Import Registry files in '.\reg' folder
+foreach ($reg in (Get-ChildItem -Path ".\reg\*" -Include @("*.reg")).FullName) {
     reg.exe import $reg
 }
