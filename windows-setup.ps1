@@ -1,19 +1,18 @@
-# install choco
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # Desktop
-choco install -y obsidian
-choco install -y steam-client
-choco install -y bitwarden
+winget install obsidian
+winget install steam
+winget install bitwarden
 
 # Development
-choco install -y openjdk11
-choco install -y python3
-choco install -y firacodenf
-choco install -y git
-choco install -y vscode
-choco install -y kdeconnect-kde
-choco install -y mitmproxy
+# winget install openjdk11
+winget install --id Python.Python
+# winget install firacodenf
+winget install --id Git.Git
+winget install --id Microsoft.VisualStudioCode
+# winget install mitmproxy
+winget install --id Flameshot.Flameshot
+winget install --id KDE.KDEConnect
 
 # timezone
 tzutil /s "Georgian Standard Time"
