@@ -39,6 +39,12 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
 "Flags"="0"
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Paths]
+"C:\\Users\\shalv\\StudioProjects"=dword:00000000
+"C:\\Users\\shalv\\AppData\\Local\\Google"=dword:00000000
+"C:\\Users\\shalv\\AppData\\Local\\Android\\Sdk"=dword:00000000
+"C:\\Users\\shalv\\.gradle"=dword:00000000
+
 ; services=======
 ; disable SysMain
 ; SysMain is a feature that was introduced back in Windows Vista, under a different name as SuperFetch. He sits quietly in the background, constantly analyzing the use of RAM and finding out which applications you run most often. Over time, SysMain marks these applications as “frequently used” and preloads them into RAM. The idea is that when you want to start the application, it will start much faster, because it is already loaded into memory.
