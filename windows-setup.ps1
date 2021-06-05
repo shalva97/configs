@@ -14,7 +14,7 @@ winget install --id Microsoft.VisualStudioCode
 winget install --id Flameshot.Flameshot
 winget install --id KDE.KDEConnect
 winget install --id KDE.Kdenlive
-
+winget install --id VideoLAN.VLC
 # timezone
 tzutil /s "Georgian Standard Time"
 
