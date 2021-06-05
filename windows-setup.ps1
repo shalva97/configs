@@ -13,6 +13,7 @@ winget install --id Microsoft.VisualStudioCode
 # winget install mitmproxy
 winget install --id Flameshot.Flameshot
 winget install --id KDE.KDEConnect
+winget install --id KDE.Kdenlive
 
 # timezone
 tzutil /s "Georgian Standard Time"
