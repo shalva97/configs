@@ -13,9 +13,10 @@ winget install --id Microsoft.VisualStudioCode
 # winget install mitmproxy
 winget install --id Flameshot.Flameshot
 winget install --id KDE.KDEConnect
-winget install --id KDE.Kdenlive
+# winget install --id KDE.Kdenlive # cannot install ffmpeg
 winget install --id VideoLAN.VLC
-choco install ffmpeg -y
+# choco install ffmpeg -y
+
 # timezone
 tzutil /s "Georgian Standard Time"
 
