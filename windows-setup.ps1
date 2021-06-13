@@ -16,6 +16,7 @@ winget install --id KDE.KDEConnect
 # winget install --id KDE.Kdenlive # cannot install ffmpeg
 winget install --id VideoLAN.VLC
 # choco install ffmpeg -y
+winget install --id OBSProject.OBSStudio
 
 # timezone
 tzutil /s "Georgian Standard Time"
