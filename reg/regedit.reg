@@ -1,0 +1,74 @@
+Windows Registry Editor Version 5.00
+
+; taskbar==========
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+; make taskbar icons smaller
+"TaskbarSmallIcons"=dword:00000001
+; Never combine Taskbar icons
+"TaskbarGlomLevel"=dword:00000002
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband]
+; remove all pinned items in taskbar
+"Favorites"=hex:ff
+
+; Remove the 'OneDrive' Icon from Windows Explorer for the current user
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{018D5C66-4533-4307-9B53-224DE2ED1FE6}]
+
+; Don't Hide file extensions
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
+
+; Disable lock screen
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+"NoLockScreen"=dword:00000001
+
+; hide cortana button
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowCortanaButton"=dword:00000000
+
+; hide weather thing
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Feeds]
+"ShellFeedsTaskbarViewMode"=dword:00000002
+
+; hide meet now and hide desktop icons
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"HideSCAMeetNow"=dword:00000001
+"NoDesktop"=dword:00000001
+
+; disable sticky keys
+[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
+"Flags"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Paths]
+"C:\\Users\\shalv\\StudioProjects"=dword:00000000
+"C:\\Users\\shalv\\AppData\\Local\\Google"=dword:00000000
+"C:\\Users\\shalv\\AppData\\Local\\Android\\Sdk"=dword:00000000
+"C:\\Users\\shalv\\.gradle"=dword:00000000
+
+; services=======
+; disable SysMain
+; SysMain is a feature that was introduced back in Windows Vista, under a different name as SuperFetch.
+; He sits quietly in the background, constantly analyzing the use of RAM and 
+; finding out which applications you run most often. 
+; Over time, SysMain marks these applications as “frequently used” and preloads them into RAM.
+; The idea is that when you want to start the application, it will start much faster,
+; because it is already loaded into memory.
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SysMain]
+"Start"=dword:00000004
+
+; fax
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Fax]
+"Start"=dword:00000004
+
+; disable windows error reporting service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WerSvc]
+"Start"=dword:00000004
+
+; verbose startup status
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Policies\System]
+"VerboseStatus"=dword:00000001
+
+; disable really bad stuff
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"ContentDeliveryAllowed"=dword:00000000
+"SilentInstalledAppsEnabled"=dword:00000000

@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; keeb layouts
+[HKEY_CURRENT_USER\Keyboard Layout\Preload]
+"1"="00000409"
+"2"="00000437"
+
+[HKEY_CURRENT_USER\Keyboard Layout\ShowToast]
+"Show"=dword:00000001
+
+[HKEY_CURRENT_USER\Keyboard Layout\Substitutes]
+"00000437"="00010437"
