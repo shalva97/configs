@@ -8,6 +8,7 @@ winget install --id Flameshot.Flameshot # need to add to startup
 winget install --id KDE.KDEConnect
 # winget install --id KDE.Kdenlive # cannot install ffmpeg
 winget install --id Opera.Opera
+winget install --id Min.Min
 
 #### Development
 # winget install openjdk11
@@ -16,6 +17,7 @@ winget install --id Git.Git
 winget install --id Microsoft.VisualStudioCode
 winget install --id Alacritty.Alacritty
 winget install --id OpenJS.NodeJSLTS
+winget install --id Oracle.VirtualBox
 # winget install mitmproxy
 # winget install --id OBSProject.OBSStudio
 
