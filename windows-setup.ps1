@@ -11,7 +11,7 @@ winget install --id Opera.Opera
 winget install --id Min.Min
 
 #### Development
-# winget install openjdk11
+# winget install AdoptOpenJDK.OpenJDK.8
 winget install --id Python.Python.3
 winget install --id Git.Git
 winget install --id Microsoft.VisualStudioCode
