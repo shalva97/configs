@@ -1,25 +1,18 @@
 ### Desktop
 # todo: install firacode
+# todo: install and fix kdenlive # winget install --id KDE.Kdenlive # cannot install ffmpeg
+# todo: add Flameshot to startup
 
 # winget install steam
-# winget install bitwarden
+winget install --id bitwarden
 winget install --id VideoLAN.VLC
-winget install --id Flameshot.Flameshot # need to add to startup
+winget install --id Flameshot.Flameshot
 winget install --id KDE.KDEConnect
-# winget install --id KDE.Kdenlive # cannot install ffmpeg
-winget install --id Opera.Opera
 winget install --id Min.Min
 
 #### Development
-# winget install AdoptOpenJDK.OpenJDK.8
-winget install --id Python.Python.3
 winget install --id Git.Git
 winget install --id Microsoft.VisualStudioCode
-winget install --id Alacritty.Alacritty
-winget install --id OpenJS.NodeJSLTS
-winget install --id Oracle.VirtualBox
-# winget install --id mitmproxy
-# winget install --id OBSProject.OBSStudio
 
 # timezone
 tzutil /s "Georgian Standard Time"
