@@ -2,6 +2,7 @@
 # todo: install firacode
 # todo: install and fix kdenlive # winget install --id KDE.Kdenlive # cannot install ffmpeg
 # todo: add Flameshot to startup
+# todo: install driver for touchpad
 
 # winget install steam
 winget install --id bitwarden
@@ -25,3 +26,5 @@ git config --global user.name "shalva97"
 foreach ($reg in (Get-ChildItem -Path ".\reg\*" -Include @("*.reg")).FullName) {
     reg.exe import $reg
 }
+
+Invoke-WebRequest -Uri "https://onedrive.live.com/download?cid=284EBE799500EA37&resid=284EBE799500EA37%21137&authkey=AB6wOXihmynU1Ic" -OutFile "C:\Users\shalv\Downloads\driver.zip"
