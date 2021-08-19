@@ -2,7 +2,6 @@
 # todo: install firacode
 # todo: install and fix kdenlive # winget install --id KDE.Kdenlive # cannot install ffmpeg
 # todo: add Flameshot to startup
-# todo: install driver for touchpad
 
 # winget install steam
 winget install --id bitwarden
@@ -27,4 +26,10 @@ foreach ($reg in (Get-ChildItem -Path ".\reg\*" -Include @("*.reg")).FullName) {
     reg.exe import $reg
 }
 
-Invoke-WebRequest -Uri "https://onedrive.live.com/download?cid=284EBE799500EA37&resid=284EBE799500EA37%21137&authkey=AB6wOXihmynU1Ic" -OutFile "C:\Users\shalv\Downloads\driver.zip"
+# install driver for touchpad
+$zipArchive = "C:\Users\shalv\Downloads\driver.zip"
+$extractTo = "C:\Users\shalv\Downloads\driver"
+Invoke-WebRequest -Uri "https://onedrive.live.com/download?cid=284EBE799500EA37&resid=284EBE799500EA37%21137&authkey=AB6wOXihmynU1Ic" -OutFile $zipArchive
+Expand-Archive $zipArchive -DestinationPath $extractTo
+$driverExecutable = $extractTo + "\Setup.exe"
+Start-Process -Wait -FilePath $driverExecutable -ArgumentList "/S" -PassThru

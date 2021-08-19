@@ -14,11 +14,13 @@ winget install --id Opera.Opera
 winget install --id Min.Min
 
 #### Development
-# winget install AdoptOpenJDK.OpenJDK.8
+winget install --id JetBrains.Toolbox
+winget install --id AdoptOpenJDK.OpenJDK.8
 winget install --id Python.Python.3
 winget install --id Git.Git
 winget install --id Microsoft.VisualStudioCode
 winget install --id Alacritty.Alacritty
+winget install -e --id Microsoft.VC++2015-2019Redist-x86 # for Alacritty
 winget install --id OpenJS.NodeJSLTS
 winget install --id Oracle.VirtualBox
 winget install --id JetBrains.Toolbox
