@@ -20,6 +20,7 @@ winget install --id Python.Python.3
 winget install --id Git.Git
 winget install --id Microsoft.VisualStudioCode
 winget install --id Alacritty.Alacritty
+# todo: doesnot work
 winget install -e --id Microsoft.VC++2015-2019Redist-x86 # for Alacritty
 winget install --id OpenJS.NodeJSLTS
 winget install --id Oracle.VirtualBox
