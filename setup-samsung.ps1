@@ -1,5 +1,4 @@
 ### Desktop
-# todo: install firacode
 # todo: install and fix kdenlive # winget install --id KDE.Kdenlive # cannot install ffmpeg
 # todo: add Flameshot to startup
 
