@@ -1,27 +1,22 @@
 ### Desktop
 # todo: install firacode
-# todo: install and fix kdenlive # winget install --id KDE.Kdenlive
-# todo: add Flameshot to startup
 # todo: download Min configs
-
-# winget install steam
-# winget install bitwarden
-winget install --id VideoLAN.VLC
-winget install --id Flameshot.Flameshot # need to add to startup
-winget install --id KDE.KDEConnect
-# winget install --id KDE.Kdenlive
-winget install --id Opera.Opera
 winget install --id Min.Min
+winget install --id VideoLAN.VLC
+winget install --id Flameshot.Flameshot
+winget install --id KDE.KDEConnect
+winget install --id Opera.Opera
+# winget install bitwarden
+# winget install --id KDE.Kdenlive
+# winget install steam
 
 #### Development
 winget install --id JetBrains.Toolbox
-winget install --id AdoptOpenJDK.OpenJDK.8
+winget install --id AdoptOpenJDK.OpenJDK.11
 winget install --id Python.Python.3
 winget install --id Git.Git
 winget install --id Microsoft.VisualStudioCode
 winget install --id Alacritty.Alacritty
-# todo: doesnot work
-winget install -e --id Microsoft.VC++2015-2019Redist-x86 # for Alacritty
 winget install --id OpenJS.NodeJSLTS
 winget install --id Oracle.VirtualBox
 winget install --id JetBrains.Toolbox
