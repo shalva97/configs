@@ -2,14 +2,13 @@
 # todo: install and fix kdenlive # winget install --id KDE.Kdenlive # cannot install ffmpeg
 # todo: add Flameshot to startup
 
-# winget install steam
-winget install --id bitwarden
+# winget install --id bitwarden
 winget install --id VideoLAN.VLC
 winget install --id Flameshot.Flameshot
 winget install --id KDE.KDEConnect
-winget install --id Min.Min
+winget install --id Opera.Opera
 
-#### Development
+### Development
 winget install --id Git.Git
 winget install --id Microsoft.VisualStudioCode
 
@@ -25,7 +24,7 @@ foreach ($reg in (Get-ChildItem -Path ".\reg\*" -Include @("*.reg")).FullName) {
     reg.exe import $reg
 }
 
-# install driver for touchpad
+# install driver for touchpad --- not tested
 $zipArchive = "C:\Users\shalv\Downloads\driver.zip"
 $extractTo = "C:\Users\shalv\Downloads\driver"
 Invoke-WebRequest -Uri "https://onedrive.live.com/download?cid=284EBE799500EA37&resid=284EBE799500EA37%21137&authkey=AB6wOXihmynU1Ic" -OutFile $zipArchive
