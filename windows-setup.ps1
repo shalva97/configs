@@ -19,7 +19,6 @@ winget install --id Microsoft.VisualStudioCode
 winget install --id Alacritty.Alacritty
 winget install --id OpenJS.NodeJSLTS
 winget install --id Oracle.VirtualBox
-winget install --id JetBrains.Toolbox
 # winget install --id mitmproxy
 # winget install --id OBSProject.OBSStudio
 
