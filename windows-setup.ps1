@@ -1,7 +1,5 @@
 ### Desktop
 # todo: install firacode
-# todo: download Min configs
-winget install --id Min.Min
 winget install --id VideoLAN.VLC
 winget install --id Flameshot.Flameshot
 winget install --id KDE.KDEConnect
