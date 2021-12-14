@@ -4,7 +4,7 @@ winget install --id VideoLAN.VLC
 winget install --id Flameshot.Flameshot
 winget install --id KDE.KDEConnect
 winget install --id Opera.Opera
-# winget install bitwarden
+winget install --id SlackTechnologies.Slack
 # winget install --id KDE.Kdenlive
 # winget install steam
 
@@ -15,8 +15,8 @@ winget install --id Python.Python.3
 winget install --id Git.Git
 winget install --id Microsoft.VisualStudioCode
 winget install --id Alacritty.Alacritty
-winget install --id OpenJS.NodeJSLTS
-winget install --id Oracle.VirtualBox
+# winget install --id OpenJS.NodeJSLTS
+# winget install --id Oracle.VirtualBox
 # winget install --id mitmproxy
 # winget install --id OBSProject.OBSStudio
 
