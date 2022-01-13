@@ -5,6 +5,7 @@ winget install --id Flameshot.Flameshot
 winget install --id KDE.KDEConnect
 winget install --id Opera.Opera
 winget install --id SlackTechnologies.Slack
+winget install --id Microsoft.PowerToys
 # winget install --id KDE.Kdenlive
 # winget install steam
 
