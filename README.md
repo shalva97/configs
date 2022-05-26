@@ -3,7 +3,7 @@
 ## Terminal
 - install fish and starship
 - install Alacritty
-- change Alacritty font size to 14
+- change Alacritty font size to 14, paddings to 4, dynamic_padding to true
 - change shell: `chsh -s /usr/local/bin/fish`
 
 ### Fish shell configs
