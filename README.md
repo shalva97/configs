@@ -78,3 +78,22 @@ set `ANDROID_SDK_ROOT` env to the /sdk path
 
 ### Windows 10
 [remove password on login](https://www.businessinsider.com/how-to-turn-off-password-on-windows-10)
+
+### Reinstalling Windiws
+- Install Opera or Firefox and then required addons
+- Log into Opera account to sync
+- open all tabs for Personal workspace
+- download setup scripts from github as .zip and run them
+- reboot and thats it...
+
+### For neighbors
+
+get windows from official page and install with defaults
+
+from ninite.com
+- qBittorrent ( for downloading activator )
+- Firefox
+- Chrome
+- WinRar ( for activator also)
+
+prefer saving ISO file + activator files, this could prevent installing 2 programs. set keyboard layout from my repo (currently it does not add rus keeb). activate windows with HWID activation
