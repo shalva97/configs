@@ -87,9 +87,6 @@ set `ANDROID_SDK_ROOT` env to the /sdk path
 - reboot and thats it...
 
 ### For neighbors
-
-get windows from official page and install with defaults
-
 from ninite.com
 - qBittorrent ( for downloading activator )
 - Firefox
@@ -97,3 +94,36 @@ from ninite.com
 - WinRar ( for activator also)
 
 prefer saving ISO file + activator files, this could prevent installing 2 programs. set keyboard layout from my repo (currently it does not add rus keeb). activate windows with HWID activation
+
+# MacOS
+**Scroll fix** https://github.com/ther0n/UnnaturalScrollWheels
+
+https://rectangleapp.com - Almost Windows Fancy Zone alternative (provides shortcut for maximizing apps)
+
+change lagunge with Alt + Space
+
+set cmd+v to paste without style
+
+Disable alert sounds
+- settings → sounds → Sounds Effects → lower the volume all the way down
+
+### Problems to fix
+faster key repeat rate
+
+Simplify shutdown ( even faster way than `shutdown -s now` )
+
+Bluetooth Headphones do not disconnect when Mac is put to sleep
+
+Bluetooth Headphones reconnect when laptop is in the bag, closed
+
+Mouse scroll wheel does not work well without other apps ( with UnnaturalScrollWheels Figma's zoom zooms too much on a single scroll )
+
+Shutdown requires too many extra clicks
+
+Opening same program shows as single icon and is not easy to switch
+
+no easy way to directly close window or app. Also close button is hard to click
+
+no way to show program names while switching to them
+
+granting permissions to apps is not that much of nice UX
