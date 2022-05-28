@@ -34,6 +34,25 @@ git config --global user.email "shalva258@gmail.com"
 ```fish
 fish_add_path /path-to-android-sdk/platform-tools/ # for adb command
 ```
+## GUI apps
+
+### Browser
+Enable DoH via next dns
+
+Install uBlock, Sponsorblock, I dont care about cookies
+
+### Opera
+
+log in to Opera Sync
+
+disable offer to save passwords
+
+Dont allow sites to send notifications
+
+problems
+- Disable auto play of gifs and videos
+- laggy UI
+
 
 ## Arch Linux
 
@@ -95,7 +114,7 @@ from ninite.com
 
 prefer saving ISO file + activator files, this could prevent installing 2 programs. set keyboard layout from my repo (currently it does not add rus keeb). activate windows with HWID activation
 
-# MacOS
+## MacOS
 **Scroll fix** https://github.com/ther0n/UnnaturalScrollWheels
 
 https://rectangleapp.com - Almost Windows Fancy Zone alternative (provides shortcut for maximizing apps)
