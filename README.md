@@ -126,6 +126,8 @@ set cmd+v to paste without style
 Disable alert sounds
 - settings → sounds → Sounds Effects → lower the volume all the way down
 
+`defaults write com.apple.dock no-bouncing -bool TRUE`
+
 ### Problems to fix
 faster key repeat rate
 
