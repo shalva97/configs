@@ -59,7 +59,7 @@ problems
 ### Packages to install
 
 ```bash
-sudo pacman -Syu ranger micro starship git exa base-devel
+sudo pacman -Syu ranger micro starship git base-devel fish
 ```
 
 ### Time
