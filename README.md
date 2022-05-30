@@ -23,7 +23,7 @@ set -Ux EDITOR micro
 alias -s df "df -h"
 alias -s free "free -h"
 ```
-`chsh -s $(which fish)`
+Change shell: `chsh -s $(which fish)`
 
 ### Git
 ```bash
@@ -61,6 +61,11 @@ problems
 
 ```bash
 sudo pacman -Syu ranger micro starship git base-devel fish openssh
+```
+
+### For server
+```bash
+sudo pacman -S qbittorrent-nox
 ```
 
 ### Time
