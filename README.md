@@ -34,6 +34,7 @@ git config --global user.email "shalva258@gmail.com"
 ### Env variables
 ```fish
 fish_add_path /path-to-android-sdk/platform-tools/ # for adb command
+set -Ux ANDROID_HOME /Users/george/Library/Android/sdk # for android sdk
 ```
 ## GUI apps
 
