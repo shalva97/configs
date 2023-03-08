@@ -38,24 +38,6 @@ set -Ux ANDROID_HOME /Users/george/Library/Android/sdk # for android sdk
 ```
 ## GUI apps
 
-### Browser
-Enable DoH via next dns
-
-Install uBlock, Sponsorblock, I dont care about cookies
-
-### Opera
-
-log in to Opera Sync
-
-disable offer to save passwords
-
-Dont allow sites to send notifications
-
-problems
-- Disable auto play of gifs and videos
-- laggy UI
-
-
 ## Arch Linux
 
 ### Packages to install
@@ -64,17 +46,6 @@ problems
 sudo pacman -Syu ranger micro starship git base-devel fish openssh
 ```
 
-### For server
-```bash
-sudo pacman -S qbittorrent-nox
-```
-
-### Time
-```bash
-sudo systemctl enable ntpd
-sudo systemctl start ntpd
-hwclock --systohc # Also need to sync hardware clock
-```
 ### top config
 
 **z** - enable colors
@@ -97,42 +68,4 @@ registry changes for your peace of brain and OCD
 
 ### Winget
 Download from theur repo https://github.com/microsoft/winget-cli/releases
-
-Enable script executions `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`
-
-set `ANDROID_SDK_ROOT` env to the /sdk path
-
-### Windows 10
-[remove password on login](https://www.businessinsider.com/how-to-turn-off-password-on-windows-10)
-
-### Reinstalling Windiws
-- Install Opera or Firefox and then required addons
-- Log into Opera account to sync
-- open all tabs for Personal workspace
-- download setup scripts from github as .zip and run them
-- reboot and thats it...
-
-### For neighbors
-from ninite.com
-- qBittorrent ( for downloading activator )
-- Firefox
-- Chrome
-- WinRar ( for activator also)
-
-prefer saving ISO file + activator files, this could prevent installing 2 programs. set keyboard layout from my repo (currently it does not add rus keeb). activate windows with HWID activation
-
-## MacOS
-**Scroll fix** https://github.com/ther0n/UnnaturalScrollWheels
-
-https://rectangleapp.com - Almost Windows Fancy Zone alternative (provides shortcut for maximizing apps)
-
-change lagunge with Alt + Space
-
-set cmd+v to paste without style
-
-Disable alert sounds
-- settings → sounds → Sounds Effects → lower the volume all the way down
-
-`defaults write com.apple.dock no-bouncing -bool TRUE`
-
 
