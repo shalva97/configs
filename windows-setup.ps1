@@ -15,3 +15,4 @@ winget install --id Alacritty.Alacritty
 git config --global user.email "shalva258@gmail.com"
 git config --global user.name "shalva97"
 
+Set-WinUserLanguageList -Force 'en-US', 'ka'
