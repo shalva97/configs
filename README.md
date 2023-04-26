@@ -68,3 +68,5 @@ yt-dlp -x --audio-format mp3 --audio-quality 320K video-url # for car radio
 ### Winget
 Download from theur repo https://github.com/microsoft/winget-cli/releases
 
+## MacOS
+Disable all dock animations: https://osxdaily.com/2010/02/19/disable-dock-bouncing/
