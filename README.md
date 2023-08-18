@@ -28,7 +28,7 @@ Change shell: `chsh -s $(which fish)`
 ### Git
 ```bash
 git config --global user.name "shalva97"
-git config --global user.email "shalva258@gmail.com"
+git config --global user.email "myEmailHere"
 ```
 
 ### Env variables
